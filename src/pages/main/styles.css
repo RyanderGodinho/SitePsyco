@@ -1,0 +1,8 @@
+.container-apresentation{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3.8rem;
+    width: 100%;
+    height: auto;
+}

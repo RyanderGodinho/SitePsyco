@@ -1,15 +1,12 @@
 import './styles.css';
 import Header from '../../components/Header/Header.jsx';
-//import Welcome from '../../components/Welcome/Welcome.jsx';
-import Card from '../../components/Card/Card.jsx'
+import Welcome from '../../components/Welcome/Welcome.jsx';
 
 function Main() {
   return (
     <div>
       <Header/>
-      {/* <Welcome/> */}
-      <Card />
-
+      <Welcome/>
     </div>
   )
 }

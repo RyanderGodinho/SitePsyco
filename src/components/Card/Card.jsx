@@ -1,12 +1,17 @@
+/* eslint-disable react/prop-types */
 import './card.css';
 
-function Card(picture, description){
-    return(
+function Card({ picture, title, descriptions }) {
+    return (
         <div className='container-card flex'>
-            <img src={ !picture ? picture : '' } alt='service-picture' />
-            <div className='card-description'>
-                { !description ? description : 'text' }
+            <div className='container-card-div1'>
+                <img src={picture} alt='service-picture' />
             </div>
+            <div className='container-card-div2 flex'>
+                <h1>{title}</h1>
+                <h2>{descriptions}</h2>
+            </div>
+            <div className='container-card-div3'></div>
         </div>
     )
 }

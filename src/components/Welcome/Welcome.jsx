@@ -1,4 +1,8 @@
 import './welcome.css';
+import Card from '../../components/Card/Card.jsx';
+import imgAlarme from '../../assets/alarme.jpg';
+import imgServico from '../../assets/servico.jpg';
+import imgEletrica from '../../assets/eletrica.jpg';
 
 function Welcome(){
     return(
@@ -14,6 +18,22 @@ function Welcome(){
                 <button>
                     SAIBA MAIS
                 </button>
+            </div>
+            <div className='container-apresentation flex'>
+                <Card 
+                    title='ACESSÓRIOS'
+                    picture={imgAlarme}
+                    descriptions={'Som Alarmes Lampadas de led Anti-furto Rastreadores'}
+                />
+                <Card 
+                    title='SERVIÇOS' 
+                    picture={imgServico}  
+                />
+                <Card 
+                    title='ELETRICA' 
+                    picture={imgEletrica} 
+                     
+                />
             </div>
         </section>
     )

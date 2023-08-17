@@ -6,24 +6,29 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
+
     width: 100%;
     height: 35rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    z-index: -1;
+
     background-image: url('../../assets/painel.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
+
 }
 
 .container-data-welcome h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 500;
-    margin-top: 6.21rem;
+    margin-top: 5.37rem;
 }
 .container-data-welcome h2{
-    font-size: 2.25rem;
+    font-size: 1.72rem;
     font-weight: 300;
-    margin-bottom: 6.21rem;
+    margin-bottom: 5.37rem;
 }
 .container-data-welcome h1, 
 .container-data-welcome h2,
@@ -33,12 +38,26 @@
     font-family: var(--ff-roboto);
 }
 .container-data-welcome button{
-    width: 18.625rem;
-    height: 4.1405rem;
+    width: 17.625rem;
+    height: 3.1405rem;
+
     border-radius: 0.3125rem;
     border: 1px solid #EEE;
     background: rgba(217, 217, 217, 0.50);
     box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.60);
+
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.70);
-    font-size: 2.25rem;
+    font-size: 2.1rem;
+}
+.container-apresentation{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3.8rem;
+
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 36.6rem;
 }
