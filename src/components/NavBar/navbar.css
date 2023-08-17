@@ -1,0 +1,44 @@
+.container-all-navbar{
+    flex-direction: column;
+    align-items: flex-end;
+    width: 43.6rem;
+    margin-right: 2.62rem;
+}
+
+.container-info{
+    width: 26.4375rem;
+    height: 0.875rem;
+    margin-top: 0.37rem;
+    margin-bottom: 0.81rem;
+}
+
+.container-info p{
+    font-size: 0.75rem;
+    font-weight: 300;
+    gap: 1.44rem;
+}
+
+.container-navbar{
+    width: 43.6rem;
+    height: 2.68rem;
+}
+
+.navbar, .container-info{
+    justify-content: space-between;
+}
+
+.navbar li, 
+.container-info p{
+    font-family: var(--ff-rubik);
+    color: var(--font-clr-white);
+}
+
+.navbar li{
+    list-style: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.navbar li:hover{
+    transform: scale(1.02);
+}

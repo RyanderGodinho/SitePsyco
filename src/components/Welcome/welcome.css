@@ -1,0 +1,44 @@
+.container-welcome{
+    width: 100%;
+}
+
+.container-data-welcome{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 35rem;
+    background-image: url('../../assets/painel.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container-data-welcome h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-top: 6.21rem;
+}
+.container-data-welcome h2{
+    font-size: 2.25rem;
+    font-weight: 300;
+    margin-bottom: 6.21rem;
+}
+.container-data-welcome h1, 
+.container-data-welcome h2,
+.container-data-welcome button{
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.60);
+    color: var(--font-clr-white);
+    font-family: var(--ff-roboto);
+}
+.container-data-welcome button{
+    width: 18.625rem;
+    height: 4.1405rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #EEE;
+    background: rgba(217, 217, 217, 0.50);
+    box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.60);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.70);
+    font-size: 2.25rem;
+}
