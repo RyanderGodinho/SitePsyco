@@ -65,7 +65,7 @@
     height: 10.5625rem;
 
     color: rgba(0, 0, 0, 0.35);
-    font-family: Rubik;
+    font-family: var(--ff-rubik);
     font-size: 1.5rem;
 }
 
@@ -89,4 +89,14 @@
     border-radius: 0.3125rem;
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 48rem) {
+    .description-title {
+        font-size: 2.1rem;
+    }
+
+    .description-sobre {
+        font-size: 1.4rem;
+    }
 }

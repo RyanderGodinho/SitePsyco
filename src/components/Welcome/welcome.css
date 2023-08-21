@@ -80,3 +80,23 @@
     background-position: center;
     background-size: cover;
 }
+
+@media (max-width: 74.15rem) {
+    .container-welcome {
+        height: 102rem;
+    }
+}
+
+@media (max-width: 48.45rem) {
+    .container-data-welcome h1 {
+        font-size: 2.7rem;
+    }
+
+    .container-data-welcome h2 {
+        font-size: 1.62rem;
+    }
+
+    .container-welcome {
+        height: 136rem;
+    }
+}
