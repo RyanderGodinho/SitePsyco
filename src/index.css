@@ -8,6 +8,7 @@
   --bg-white-gray: #ECECEC;
   --bg-modal: #fafafa;
   --bg-card-red: #B40700;
+  --bg-dark-gray: #444;
 
   --font-clr-black: #000000;
   --font-clr-white: #fafafa;
@@ -18,7 +19,8 @@
   --ff-rubik: 'Rubik', sans-serif;
   --ff-roboto: 'Roboto', sans-serif;
 }
-body{
+
+body {
   background-color: var(--bg-white-gray);
 }
 
@@ -26,10 +28,10 @@ body{
   display: flex;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   transform: scale(1.02);
 }

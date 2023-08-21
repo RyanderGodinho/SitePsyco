@@ -1,8 +1,10 @@
 .container-welcome {
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
+
     width: 100%;
-    height: 66rem;
+    height: 68.3rem;
 }
 
 .container-img-welcome {
@@ -71,7 +73,7 @@
 
 .container-decoration-footer {
     width: 100%;
-    height: 8.875rem;
+    height: 8rem;
 
     background-image: url('../../assets/Divisoria.png');
     background-repeat: no-repeat;
