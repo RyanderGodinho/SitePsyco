@@ -1,4 +1,4 @@
-import './styles.css';
+import './header.css';
 import logo from '../../assets/logo-psyco.svg';
 import Navbar from '../NavBar/NavBar';
 

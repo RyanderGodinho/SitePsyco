@@ -1,43 +1,49 @@
-.container-welcome{
+.container-welcome {
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
+    height: 66rem;
 }
 
-.container-data-welcome{
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-
+.container-img-welcome {
     width: 100%;
     height: 35rem;
     padding-left: 5%;
     padding-right: 5%;
-    z-index: -1;
 
     background-image: url('../../assets/painel.png');
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
-.container-data-welcome h1{
+.container-data-welcome {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.container-data-welcome h1 {
     font-size: 3rem;
     font-weight: 500;
     margin-top: 5.37rem;
 }
-.container-data-welcome h2{
+
+.container-data-welcome h2 {
     font-size: 1.72rem;
     font-weight: 300;
     margin-bottom: 5.37rem;
 }
-.container-data-welcome h1, 
+
+.container-data-welcome h1,
 .container-data-welcome h2,
-.container-data-welcome button{
+.container-data-welcome button {
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.60);
     color: var(--font-clr-white);
     font-family: var(--ff-roboto);
 }
-.container-data-welcome button{
+
+.container-data-welcome button {
     width: 17.625rem;
     height: 3.1405rem;
 
@@ -49,7 +55,8 @@
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.70);
     font-size: 2.1rem;
 }
-.container-apresentation{
+
+.container-apresentation {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -60,4 +67,14 @@
 
     position: absolute;
     top: 36.6rem;
+}
+
+.container-decoration-footer {
+    width: 100%;
+    height: 8.875rem;
+
+    background-image: url('../../assets/Divisoria.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import './card.css';
 
 function Card({ picture, title, descriptions }) {
@@ -9,7 +8,14 @@ function Card({ picture, title, descriptions }) {
             </div>
             <div className='container-card-div2 flex'>
                 <h1>{title}</h1>
-                <h2>{descriptions}</h2>
+                {descriptions && descriptions.map(description => {
+                    return (
+                        <h2 key={description}>
+                            {description}
+                        </h2>
+                    )
+                })}
+                <span></span>
             </div>
             <div className='container-card-div3'></div>
         </div>

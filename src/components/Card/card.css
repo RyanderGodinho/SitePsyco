@@ -28,21 +28,28 @@
     align-items: center;
     justify-content: space-between;
 
-    /* background-image: url('../../assets/bg-som.jpg');
+    background-image: url('../../assets/bg-sond.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; */
+    background-position: center;
 
     width: 21.875rem;
     height: calc(16rem - 1.312rem);
 }
-.container-card-div2 h1{
-    margin-top: 0.4rem;
+.container-card h1,
+h2 {
     color: rgba(0, 0, 0, 0.57);
     font-family: var(--ff-rubik);
+}
+
+.container-card h1 {
+    margin-top: 0.4rem;
     font-size: 1.75rem;
 }
 
+.container-card h2 {
+    font-size: 1.25rem;
+}
 .container-card-div3{
     width: 21.875rem;
     height: 1.3125rem;
