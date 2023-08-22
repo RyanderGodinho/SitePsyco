@@ -12,3 +12,19 @@
     height: 9.5625rem;
     margin-left: 2.06rem;
 }
+
+@media only screen and (max-width: 74rem) {
+    .container-header img {
+        width: 18.2rem;
+        height: 7.65rem;
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 59rem) {
+    .container-header img {
+        width: 20.75rem;
+        height: 9.5625rem;
+        margin-left: 1.4rem;
+    }
+}

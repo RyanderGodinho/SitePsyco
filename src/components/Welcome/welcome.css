@@ -81,19 +81,20 @@
     background-size: cover;
 }
 
-@media (max-width: 74.15rem) {
+@media only screen and (max-width: 74.15rem) {
     .container-welcome {
         height: 102rem;
     }
 }
 
-@media (max-width: 48.45rem) {
+@media only screen and (max-width: 48.45rem) {
     .container-data-welcome h1 {
         font-size: 2.7rem;
     }
 
     .container-data-welcome h2 {
         font-size: 1.62rem;
+        margin-bottom: calc(5.37rem - 10%);
     }
 
     .container-welcome {
