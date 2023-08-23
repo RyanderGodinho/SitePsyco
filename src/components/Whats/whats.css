@@ -1,0 +1,9 @@
+.link-whats {
+    opacity: 0;
+    transform: translateX(+100%);
+    transition: all 1s;
+    position: fixed;
+    bottom: 5rem;
+    right: 1rem;
+    z-index: 5;
+}

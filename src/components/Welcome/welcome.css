@@ -69,6 +69,8 @@
 
     position: absolute;
     top: 36.6rem;
+
+    transition-delay: 1000ms;
 }
 
 .container-decoration-footer {

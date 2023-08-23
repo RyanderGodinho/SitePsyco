@@ -4,6 +4,7 @@ import Welcome from '../../components/Welcome/Welcome.jsx';
 import Sobre from '../../components/Sobre/sobre.jsx';
 import Products from '../../components/Products/Products.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
+import Whats from '../../components/Whats/Whats';
 
 function Main() {
   return (
@@ -13,6 +14,7 @@ function Main() {
       <Sobre />
       <Products />
       <Footer />
+      <Whats />
     </main>
   )
 }

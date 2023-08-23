@@ -20,7 +20,7 @@ export default function Products() {
     const [products1, setProducts1] = React.useState([product1, product2, product3, product4, product5, product6, product7, product8, product9,])
     const [products2, setProducts2] = React.useState([product10, product11, product12,])
     return (
-        <section className='container-section-products flex'>
+        <section id='products' className='container-section-products flex'>
             {products1.map((product, length) => {
                 return (
                     <div key={length}>

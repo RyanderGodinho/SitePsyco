@@ -29,7 +29,8 @@
 }
 
 .navbar li,
-.container-info p {
+.container-info p,
+.link {
     font-family: var(--ff-rubik);
     color: var(--font-clr-white);
 }
@@ -38,6 +39,10 @@
     list-style: none;
     font-size: 2rem;
     cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .navbar li:hover {

@@ -43,6 +43,15 @@
     gap: 0.5rem;
 }
 
+.social-midia img {
+    cursor: pointer;
+}
+
+.social-midia img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .pages-title {
     color: var(--font-yellow);
     font-family: var(--ff-rubik);
@@ -57,4 +66,23 @@
     color: var(--bg-modal);
     font-family: var(--ff-rubik);
     font-size: 1.125rem;
+}
+
+.location {
+    align-items: center;
+    justify-content: center;
+}
+
+.location img {
+    width: 200px;
+}
+
+@media only screen and (max-width: 48rem) {
+
+    .location,
+    .apresentation,
+    .pages {
+        align-items: center;
+        border-right: none;
+    }
 }
