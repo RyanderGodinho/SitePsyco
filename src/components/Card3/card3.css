@@ -1,14 +1,15 @@
-.container-card3 {
+.container-card3,
+.container-card3 img {
     width: 18.75rem;
     height: 18.75rem;
 
     border-radius: 0.3125rem;
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 
-.container-card3 img {
-    width: 18.75rem;
-    height: 18.75rem;
-    border-radius: 0.3125rem;
+.container-card3:hover {
+    transform: scale(1.02);
+    transition: 1ms;
 }

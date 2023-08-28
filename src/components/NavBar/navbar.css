@@ -49,6 +49,19 @@
     transform: scale(1.02);
 }
 
+#container-mini-navbar {
+    display: none;
+    height: 3rem;
+    width: 3rem;
+    align-self: center;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+#container-mini-navbar:hover {
+    transform: scale(1.02);
+}
+
 @media only screen and (max-width: 74rem) {
     .container-all-navbar {
         width: calc(43.6rem - 20%);
@@ -71,6 +84,10 @@
 }
 
 @media only screen and (max-width: 59rem) {
+    #container-mini-navbar {
+        display: block;
+    }
+
     .container-all-navbar {
         display: none;
     }

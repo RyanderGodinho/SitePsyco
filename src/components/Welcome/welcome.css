@@ -92,6 +92,8 @@
 @media only screen and (max-width: 48.45rem) {
     .container-data-welcome h1 {
         font-size: 2.7rem;
+        margin-top: 3rem;
+        transition: all 1s;
     }
 
     .container-data-welcome h2 {

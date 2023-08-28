@@ -3,7 +3,7 @@ import logo from '../../assets/logo-psyco.svg';
 import Navbar from '../NavBar/NavBar';
 import React from 'react';
 
-function Header() {
+function Header({ openMenu, setOpenMenu }) {
   React.useEffect(() => {
     const inObserver = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -21,7 +21,7 @@ function Header() {
   return (
     <header className='container-header flex'>
       <img className='hidden' src={logo} alt='logo loja' />
-      <Navbar />
+      <Navbar openMenu={openMenu} setOpenMenu={setOpenMenu} />
     </header>
   )
 }
