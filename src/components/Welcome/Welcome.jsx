@@ -1,8 +1,8 @@
 import './welcome.css';
 import Card from '../../components/Card/Card.jsx';
-import imgAlarme from '../../assets/alarme.jpg';
-import imgServico from '../../assets/servico.jpg';
-import imgEletrica from '../../assets/eletrica.jpg';
+import imgAlarme from '../../assets/alarme.png';
+import imgServico from '../../assets/servico.png';
+import imgEletrica from '../../assets/eletrica.png';
 import React from 'react'
 
 function Welcome() {

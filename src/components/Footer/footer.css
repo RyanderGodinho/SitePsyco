@@ -44,6 +44,8 @@
 }
 
 .social-midia img {
+    width: 3.0625rem;
+    height: 3.0625rem;
     cursor: pointer;
 }
 

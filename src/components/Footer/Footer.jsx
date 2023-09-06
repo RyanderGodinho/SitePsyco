@@ -12,9 +12,9 @@ export default function Footer() {
                 <img className="logo-footer" src={logo} alt="logo-psyco" />
                 <p className="apresentation-text">Oferecemos apenas o melhor em termos de desempenho e inovação. Não aceitamos nada além da excelência.</p>
                 <div className="social-midia flex">
-                    <a href="https://www.facebook.com/PsycoSom/"><img src={facebook} /></a>
-                    <a href="https://www.instagram.com/psycosoundcar/"><img src={instagram} /></a>
-                    <a href="https://api.whatsapp.com/send/?phone=%2B5561974028327&text&type=phone_number&app_absent=0"><img src={whats} /></a>
+                    <a alt='facebook-link' aria-label="acesse nosso facebook" href="https://www.facebook.com/PsycoSom/"><img src={facebook} alt="facebook-link" /></a>
+                    <a alt='instagram-link' aria-label="acesse nosso instagram" href="https://www.instagram.com/psycosoundcar/"><img src={instagram} alt="instagram-link" /></a>
+                    <a alt='whatsapp-link' aria-label="nos chame no whatsapp" href="https://api.whatsapp.com/send/?phone=%2B5561974028327&text&type=phone_number&app_absent=0"><img src={whats} alt="whatsapp-link" /></a>
                 </div>
             </div>
             <div id="footer" className="pages flex">
@@ -25,7 +25,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="location flex">
-                <img src={coringa} />
+                <img src={coringa} alt='coringa-psyco' />
             </div>
         </footer>
     )
