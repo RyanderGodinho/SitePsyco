@@ -9,7 +9,7 @@ export default function Menu() {
                         <a className='link-menu' href='#home' >Home</a>
                     </li>
                     <li>
-                        <a className='link-menu' href='#products'>Produtos e serviços</a>
+                        <a className='link-menu' href='#products'>Produtos</a>
                     </li>
                     <li>
                         <a className='link-menu' href='#footer'>Contato</a>
