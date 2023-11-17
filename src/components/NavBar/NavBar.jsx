@@ -31,7 +31,7 @@ function Navbar({ openMenu, setOpenMenu }) {
                 <nav className="container-navbar hidden">
                     <ul className="navbar flex">
                         <li>
-                            <a className='link' href='#home' >Home</a>
+                            <a className='link' href='top' >Home</a>
                         </li>
                         <li>
                             <a className='link' href='#products'>Produtos e serviços</a>
