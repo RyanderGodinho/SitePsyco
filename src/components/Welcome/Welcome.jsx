@@ -25,7 +25,7 @@ function Welcome() {
     })
 
     return (
-        <section className='container-welcome flex'>
+        <section className='container-welcome flex' id='home'>
             <div className='container-img-welcome'>
                 <div className='container-data-welcome flex hidden'>
 
