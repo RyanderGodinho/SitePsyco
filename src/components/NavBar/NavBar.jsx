@@ -31,7 +31,7 @@ function Navbar({ openMenu, setOpenMenu }) {
                 <nav className="container-navbar hidden">
                     <ul className="navbar flex">
                         <li>
-                            <a className='link' href='https://www.psyco.vercel.app' >Home</a>
+                            <a className='link' href='http://psyco.vercel.app' >Home</a>
                         </li>
                         <li>
                             <a className='link' href='#products'>Produtos e serviços</a>
