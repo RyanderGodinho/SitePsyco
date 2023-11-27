@@ -26,7 +26,7 @@ function Navbar({ openMenu, setOpenMenu }) {
             <div className='container-all-navbar flex'>
                 <div className='container-info flex hidden'>
                     <p>(61) 9 7402-8327</p>
-                    <p>AV 15 DE JUNHO VALPARAISO 2 EM FRENTE A PADOKA</p>
+                    <p>AV 15 DE JUNHO VALPARAISO 2 PROXIMO A FACULDADE ANHAGUERA</p>
                 </div>
                 <nav className="container-navbar hidden">
                     <ul className="navbar flex">
